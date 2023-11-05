@@ -3,14 +3,14 @@ import classes from "../../styles/MealsSummary.module.scss";
 const MealsSummary = () => {
   return (
     <section className={classes.summary}>
-      <h2>Delicious Food, Delivered To You</h2>
+      <h2>Comida deliciosa diretamente para a sua casa!</h2>
       <p>
-        Choose your favorite meal from our broad selection of available meals
-        and enjoy a delicious lunch or dinner at home.
+        Escolha sua refeição favorita de nossa ampla seleção de refeições e
+        desfrute de um delicioso almoço ou jantar em casa.
       </p>
       <p>
-        All our meals are cooked with high-quality ingredients, just-in-time and
-        of course by experienced chefs!
+        Todas as nossas refeições são cozinhadas com ingredientes de alta
+        qualidade, no momento certo e, claro, por chefs experientes!
       </p>
     </section>
   );
