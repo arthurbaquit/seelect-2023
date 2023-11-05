@@ -20,7 +20,7 @@ export const MealItem = (props: MealItemProps) => {
       <div>
         <h3> {props.name}</h3>
         <div className={style.description}>{props.description}</div>
-        <div className={style.price}>${(props.price / 100).toFixed(2)}</div>
+        <div className={style.price}>R${(props.price / 100).toFixed(2)}</div>
       </div>
       <div>
         <MealItemForm onSubmitHandler={onSubmitHandler} />

@@ -8,7 +8,7 @@ export const Header = ({ onClickHandler }: { onClickHandler: () => void }) => {
     <>
       <div className={styles.header}>
         <h1>Seelect 2023</h1>
-        <HeaderCartButton title={"Your cart"} onClick={onClickHandler} />
+        <HeaderCartButton title={"Seu carrinho"} onClick={onClickHandler} />
       </div>
       <div className={styles["main-image"]}>
         <img src={"/meals.jpg"} alt={"meals"} />

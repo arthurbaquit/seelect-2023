@@ -25,7 +25,7 @@ export const MealItemForm = ({
         onChange={onItemQntdHandler}
         value={itemQtd}
       />
-      <button type={"submit"}> +Add</button>
+      <button type={"submit"}> +Adicionar</button>
     </form>
   );
 };

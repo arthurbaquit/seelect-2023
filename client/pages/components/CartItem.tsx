@@ -8,7 +8,7 @@ interface CartItemProps {
 }
 
 const CartItem = (props: CartItemProps) => {
-  const price = `$${(props.items.price / 100).toFixed(2)}`;
+  const price = `R$${(props.items.price / 100).toFixed(2)}`;
   const ctx = useContext(CartContext);
   const onAdd = () => {
     const addedItem = { ...props.items, amount: 1 };
