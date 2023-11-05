@@ -1,0 +1,22 @@
+@import "./variables.scss";
+
+.form {
+  text-align: right;
+}
+
+.form button {
+  font: inherit;
+  cursor: pointer;
+  background-color: $primary;
+  border: 1px solid $primary;
+  color: $base-bg-light-color;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.form button:hover,
+.form button:active {
+  background-color: $primary-dark;
+  border-color: $primary-dark;
+}
