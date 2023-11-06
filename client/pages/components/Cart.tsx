@@ -26,19 +26,19 @@ export const Cart = ({ onClickHandler }: { onClickHandler: () => void }) => {
         })}
       </ul>
       <div className={styles.total}>
-        <span> Total Amount </span>
+        <span> Valor Total </span>
         <span>R${(totalAmount / 100).toFixed(2)}</span>
       </div>
       <div className={styles.actions}>
         <button className={styles["button-alt"]} onClick={onClickHandler}>
-          Close
+          Fechar
         </button>
         <button
           type={"button"}
           className={styles.button}
           onClick={() => console.log("Implementar pedido")}
         >
-          Order
+          Pedir
         </button>
       </div>
     </Modal>
