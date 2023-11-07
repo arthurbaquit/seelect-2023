@@ -7,7 +7,7 @@ Pasta `client` possui o código do frontend, desenvolvido em React/Typescript. P
 ```bash
 cd client
 yarn install
-yarn dev
+yarn start
 ```
 
 e acessar a aplicação no browser `locahost:3000`.
