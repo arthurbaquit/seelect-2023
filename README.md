@@ -26,3 +26,5 @@ go run main.go
 ```
 
 Com isso, nosso servidor deve estar rodando no `localhost:8080`.
+
+[Forms de feedback](https://forms.gle/bj2Gn2rciysrTcFu5)
