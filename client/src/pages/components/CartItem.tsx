@@ -1,5 +1,5 @@
 import classes from "../../styles/CartItem.module.scss";
-import { SelectedMeals } from "../index";
+import { SelectedMeals } from "../../index";
 import { useContext } from "react";
 import { CartContext } from "../../store/cart-context";
 

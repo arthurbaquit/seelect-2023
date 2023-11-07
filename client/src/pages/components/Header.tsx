@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../../styles/Header.module.scss";
 import { HeaderCartButton } from "../UI/HeaderCartButton";
-import Image from "next/image";
 
 export const Header = ({ onClickHandler }: { onClickHandler: () => void }) => {
   return (

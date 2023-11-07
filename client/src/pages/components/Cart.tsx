@@ -7,6 +7,7 @@ import { CartContext } from "../../store/cart-context";
 export const Cart = ({ onClickHandler }: { onClickHandler: () => void }) => {
   const cart = useContext(CartContext);
   const [totalAmount, setTotalAmount] = useState<number>(0);
+  console.log(totalAmount);
   useEffect(() => {
     const totalAmountAux = cart.cartItems.map(
       (item) => +(item.amount * item.price).toFixed(2)
